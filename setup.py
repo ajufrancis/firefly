@@ -9,6 +9,8 @@ requirements = [
     "testify == 0.3.10",
 ]
 
+#Added comment to enumeration branch
+
 # python-rrdtool doesn't install cleanly out of the box on OS X
 if not (os.name == "posix" and platform.system() == "Darwin"):
     requirements.append("python-rrdtool >= 1.4.7")
